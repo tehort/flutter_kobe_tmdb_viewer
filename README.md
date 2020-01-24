@@ -1,9 +1,10 @@
 # kobe_tmdb_viewer
 
 This app depends on code generation libraries (Json code generation and MobX)
-In order to build you must run and keep running the build_runner
 
-flutter packages pub run build_runner watch --delete-conflicting-outputs
+In order to build, you must run and keep running the build_runner
+
+	flutter packages pub run build_runner watch --delete-conflicting-outputs
 
 The app uses MobX for state management.
 
