@@ -1,0 +1,41 @@
+name: tmdb_viewer
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.6.0 <3.0.0"
+
+dependencies:
+  intl: any
+  data_connection_checker: ^0.3.4
+  load: ^0.1.5+1
+  connectivity: any
+  json_annotation: any
+  dio: any
+  dio_retry: 0.1.9-beta
+  get_it: any
+  brasil_fields: any
+  font_awesome_flutter: any
+  mobx: any
+  flutter_mobx: any
+  mobx_codegen: any
+  pedantic: any
+  cupertino_icons: any
+  flutter_native_splash: any
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  json_serializable: any
+  build_runner: any
+  flutter_test:
+    sdk: flutter
+
+flutter_native_splash:
+  image: assets/powered_by.png
+  color: "0162b4"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
